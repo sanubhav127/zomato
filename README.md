@@ -45,6 +45,26 @@ Clone the repository:
 git clone https://github.com/sanubhav127/zomato.git
 cd zomato
 
+Backend Setup
+
+cd backend
+npm install
+npx nodemon
+
+🔐 Environment Variables
+PORT=3000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+CLOUDINARY_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+
+Frontend setup
+cd frontend
+cd vite-project
+npm install
+npm run dev
+
 🧑‍💻 Author
 Anubhav Singh
 📧 [sanubhav127@gmail.com]
